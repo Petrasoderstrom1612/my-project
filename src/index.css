@@ -8,7 +8,7 @@ body {
     background: #27292c;
     color: white;
     margin: 0;
-
+    font-family: Inter, sans-serif;
 }
 
 h1 {
@@ -43,6 +43,9 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-self: center;
+    background-image: url("./assets/react-logo-half.png");
+    background-repeat: no-repeat;
+    background-position: right 90%;
 }
 
 footer{
@@ -56,9 +59,24 @@ footer{
     margin-left:3px
 }
 
-ul, footer{
+main, footer{
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-self: center;
+}
+
+ul{
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+li{
+    padding-block:10px;
+    line-height: 19px;
+}
+
+li::marker {
+    color: #5ED1F1;
+    font-size: 2em; 
 }
