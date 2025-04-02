@@ -1,8 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background: #27292c;
     color: white;
+    margin: 0;
+
 }
 
 h1 {
@@ -12,7 +19,9 @@ h1 {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    background: #21222A;
+    width: 100vw;
+    justify-content: center;
 }
 
 .nav-list {
@@ -41,4 +50,16 @@ footer{
     display: flex;
     flex-direction: column;
     justify-self: center;
+}
+
+.title{
+    color: #5ED1F1;
+    margin-left:3px
+}
+
+ul, footer{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
